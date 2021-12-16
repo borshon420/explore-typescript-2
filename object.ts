@@ -18,3 +18,10 @@ const employee: Person = {
     age: 29,
     salary: 1000000
 }
+
+function getSalary(player: {name: string, salary: number}):
+number{
+    return player.salary 
+}
+
+getSalary({ name: 'kuddus', salary:50})

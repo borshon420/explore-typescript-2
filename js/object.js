@@ -11,3 +11,7 @@ const employee = {
     age: 29,
     salary: 1000000
 };
+function getSalary(player) {
+    return player.salary;
+}
+getSalary({ name: 'kuddus', salary: 50 });
